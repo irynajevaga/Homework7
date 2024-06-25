@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(28, 28, 28);
+  color: rgba(255, 252, 246, 0.861);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif,
+    serif;
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+button {
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 25px 30px;
+  margin: 40px 0;
+  color: #0c0d0d;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 2px;
+  overflow: hidden;
+  margin-right: 50px;
+  margin-bottom: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif,
+    serif;
+}
+button:hover {
+  background: #f3db40;
+  color: #242424;
+  box-shadow: 0 0 5px #d8cc7d, 0 0 25px #fbee66, 0 0 50px #f2f2ed,
+    0 0 100px #f0d652;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.333));
+}
+p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  line-height: 161%;
+}
